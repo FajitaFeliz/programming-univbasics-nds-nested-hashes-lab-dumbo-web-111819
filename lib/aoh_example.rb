@@ -30,8 +30,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  array_name = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
-  array_name[1][2]
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
